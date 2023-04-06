@@ -1,0 +1,53 @@
+*       {
+    font-family: Ubuntu;
+}
+
+h1      {
+    text-align: center;
+    color: #004159;
+    font-size: 60px;
+}
+
+form        {
+    padding: 10px;
+}
+
+label       {
+    font-size: 30px;
+    grid-column: 1;
+    text-align: right;
+    padding: 5px;
+}
+
+input, textarea  {
+    border: 2px solid #004159;
+    border-radius: 5px;
+    font-size: 30px;
+    padding: 5px;
+    width: 30%;
+    margin: 5px;
+}
+
+textarea    {
+    width: 70%;
+    height: 120px;
+    vertical-align: top;
+    resize: none;
+}
+
+button      {
+    margin: auto;
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #8C65D3;
+    width: 200px;
+    color: white;
+}
+
+.center         {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

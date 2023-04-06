@@ -1,0 +1,145 @@
+* {
+    font-family: Ubuntu;
+}
+
+h1 {
+    text-align: center;
+    color: #004159;
+    font-size: 60px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.sidebar {
+    height: 100%;
+    grid-column: 1;
+    padding: 5px;
+    margin-right: 10px;
+    overflow-y: auto;
+}
+
+.assigns {
+    grid-column: 2;
+    padding: 5px;
+}
+
+.stu-assign {
+    background-color: #81CBF8;
+    border: 1px solid #81CBF8;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.stu-assign.graded {
+    background-color: lightgreen;
+    border: 1px solid lightgreen;
+}
+
+.stu-assign.selected {
+    border: 2px solid black;
+}
+
+.stu-assign.graded.selected {
+    border: 2px solid black;
+}
+
+form {
+    padding: 10px;
+}
+
+label {
+    font-size: 30px;
+    grid-column: 1;
+    text-align: right;
+    padding: 5px;
+    color: #8C65D3;
+}
+
+input {
+    border: 2px solid #004159;
+    border-radius: 5px;
+    font-size: 30px;
+    padding: 5px;
+    width: 30%;
+    margin: 5px;
+}
+
+textarea {
+    border: 2px solid #004159;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+    width: 90%;
+    height: 500px;
+    vertical-align: top;
+    resize: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+button {
+    margin: auto;
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #8C65D3;
+    width: 200px;
+    color: white;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 25px;
+    background: rgb(0, 255, 0);
+    background: linear-gradient(90deg, rgb(0, 255, 0) 0%, rgb(255, 255, 0) 50%, rgb(255, 0, 0) 100%);
+    outline: none;
+    border: none;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: black;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: black;
+    cursor: pointer;
+}
+
+.middle     {
+    display: flex;
+    vertical-align: middle;
+    align-items: middle;
+}
+
+#feedback   {
+    height: 200px;
+}
+
+#submitButton   {
+    width: 400px;
+}
