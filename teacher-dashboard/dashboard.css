@@ -1,0 +1,100 @@
+*       {
+    font-family: Ubuntu;
+}
+
+header  {
+    display: flex;
+    position: fixed;
+    padding: 15px;
+    background-color: #f0f0f0;
+    width: 100%;
+    top: 0;
+    left: 0;
+    align-items: center;
+    z-index: 999;
+}
+
+.heading    {
+    font-size: 50px;
+    color: #004159;
+    font-weight: bold;
+}
+
+#logout-button      {
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    background-color: #004159;
+    width: 100px;
+    position: fixed;
+    right: 30px;
+}
+
+
+main        {
+    padding-top: 100px;
+}
+
+#add-assign     {
+    font-size: 20px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    background-color: #004159;
+    width: 300px;
+}
+
+.assignment     {
+    border: 1px solid #81CBF8;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 20px 30px;
+    margin: 10px auto;
+    background-color: #81CBF8;
+    width: 50%;
+    line-height: 30px;
+}
+
+.assignment.complete    {
+    background-color: lightgreen;
+    border: 1px solid lightgreen;
+}
+
+span.assign-name        {
+    font-size: 25px;
+    position: absolute;
+    color: #0052A5;
+    text-transform: capitalize;
+}
+
+.assign-date    {
+    font-weight: bold;
+}
+
+.assign-due     {
+    font-weight: bold;
+}
+
+.sel      {
+    display: inline;
+    border: 1px solid #598cab;
+    text-align: center;
+    border-radius: 5px;
+    float: right;
+    background-color: #598cab;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    font-size: 50px;
+    vertical-align: middle;
+    margin: auto 5px;
+    color: #004159;
+}
+
+.sel.com        {
+    background-color: #61a161;
+    border: 1px solid #61a161;
+}
