@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZenLearn Dashboard</title>
+
+    <!-- IMPORTING FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <header>
+        <div class="heading">ZenLearn</div>
+        <button type="button" id="logout-button">Logout</button>
+    </header>
+
+    <main>
+        <div id="assigns">
+            <div class="assignment" id="unique-id" onclick="gotoAssign('unique-id')">
+                <span class="grade">A</span>
+                <span class="assign-name">Sample Assignment</span><br>
+                Given date: <span class="assign-date">6th April 2023</span><br>
+                Due date&nbsp;&nbsp;&nbsp;: <span class="assign-due">7th April 2023</span><br>
+            </div>
+
+            <div class="assignment complete" id="unique-id" onclick="gotoAssign('unique-id')">
+                <span class="grade">A</span>
+                <span class="assign-name">Completed Assignment</span><br>
+                Given date: <span class="assign-date">6th April 2023</span><br>
+                Due date&nbsp;&nbsp;&nbsp;: <span class="assign-due">7th April 2023</span><br>
+            </div>
+
+            <div class="assignment due" id="unique-id" onclick="gotoAssign('unique-id')">
+                <span class="grade">A</span>
+                <span class="assign-name">Due Assignment</span><br>
+                Given date: <span class="assign-date">6th April 2023</span><br>
+                Due date&nbsp;&nbsp;&nbsp;: <span class="assign-due">7th April 2023</span><br>
+            </div>
+        </div>
+        
+    </main>
+</body>
+</html>

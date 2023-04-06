@@ -1,0 +1,102 @@
+*       {
+    font-family: Ubuntu;
+}
+
+span.tick::after   {
+    content: "☑";
+    color: green;
+}
+
+span.cross::after   {
+    content: "☒";
+    color: red;
+}
+
+header  {
+    display: flex;
+    position: fixed;
+    padding: 15px;
+    background-color: #f0f0f0;
+    width: 100%;
+    top: 0;
+    left: 0;
+    align-items: center;
+}
+
+.heading    {
+    font-size: 50px;
+    color: #004159;
+    font-weight: bold;
+}
+
+#logout-button      {
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    background-color: #004159;
+    width: 100px;
+    position: fixed;
+    right: 30px;
+}
+
+
+main        {
+    padding-top: 100px;
+}
+
+.assigns        {
+    padding: 10px;
+}
+
+.assignment     {
+    border: 1px solid #81CBF8;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 20px 30px;
+    margin: 10px auto;
+    background-color: #81CBF8;
+    width: 50%;
+    line-height: 30px;
+}
+
+.assignment.complete    {
+    background-color: lightgreen;
+    border: 1px solid lightgreen;
+}
+
+.assignment.due    {
+    background-color: rgb(255, 127, 127);
+    border: 1px solid rgb(255, 127, 127);
+}
+
+span.assign-name        {
+    font-size: 25px;
+    position: absolute;
+    color: #0052A5;
+    text-transform: capitalize;
+}
+
+.assign-date    {
+    font-weight: bold;
+}
+
+.assign-due     {
+    font-weight: bold;
+}
+
+.grade      {
+    display: inline;
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 5px;
+    float: right;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    font-size: 50px;
+    vertical-align: middle;
+}
+
