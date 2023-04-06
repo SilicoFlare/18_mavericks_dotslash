@@ -9,7 +9,7 @@ collection.insert_one(my_document)
 from flask import Flask, jsonify, request
 from pymongo import MongoClient
 
-app = Flask(_name_)
+app = Flask(__name__)
 
 
 # API endpoints
@@ -103,5 +103,5 @@ def grade_essay():
 
     return jsonify({'message': 'Essay graded successfully!'})
 
-if _name_ == '_main_':
+if __name__ == '_main_':
     app.run()
