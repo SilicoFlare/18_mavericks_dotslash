@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ZenLearn Home</title>
+
+        <!-- IMPORTING FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="main.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <header>
+            <template id="temp-login">
+                <form action="post" id="logInForm">
+                    <label for="username">Username: </label>
+                    <input type="text" id="username" /><br />
+                
+                    <label for="password">Password: </label>
+                    <input type="password" id="password" /><br />
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                    <button type="button" onclick="goBack()">Go Back</button>
+
+                </form>
+            </template>
+            <template id="temp-signup">
+                <form action="post" id="signUpForm">
+                    <label for="username">Username: </label>
+                    <input type="text" id="username" /><br />
+                
+                    <label for="password">Password: </label>
+                    <input type="password" id="password" /><br />
+                
+                    <label for="cnfPassword">Confirm Password: </label>
+                    <input type="password" id="cnfPassword" /><br />
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                    <button type="button" onclick="goBack()">Go Back</button>
+                </form>
+            </template>
+        </header>
+        <main>
+            <h1 class="bigtext">ZenLearn</h1>
+            <p class="content">Where learning meets technology</p><br><br>    
+            <div id="options">
+                <button id="logInButton" class="sign" onclick="showLogIn()">Sign In</button>&emsp;&emsp;
+                <button id="signUpButton" class="sign" onclick="showSignUp()">Sign Up</button>
+            </div>
+            <div id="formStuff">
+            </div>
+
+        </main>
+    </body>
+</html>

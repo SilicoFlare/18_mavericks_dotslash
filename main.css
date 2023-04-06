@@ -1,0 +1,28 @@
+*       {
+    font-family: Ubuntu;
+}
+
+.bigtext    {
+    font-size: 150px;
+    text-align: center;
+    color: #004159;
+
+}
+
+.content    {
+    text-align: center;
+    font-size: 30px;
+    line-height: 1px;
+}
+
+#options    {
+    text-align: center;
+}
+
+button.sign      {
+    font-size: 40px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 0;
+    color: #65A8C4;
+}
