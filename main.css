@@ -19,10 +19,57 @@
     text-align: center;
 }
 
+button      {
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0;
+    color: #8C65D3;
+    width: 200px;
+}
+
 button.sign      {
     font-size: 40px;
     padding: 15px;
     border-radius: 5px;
     border: 0;
     color: #65A8C4;
+    width: 300px;
+}
+
+form > button   {
+    color: #8C65D3;
+    background-color: white;
+    border: 3px solid #8C65D3;
+    border-radius: 5px;
+}
+
+label       {
+    font-size: 30px;
+    grid-column: 1;
+    text-align: right;
+    padding: 5px;
+}
+
+#formStuff    {
+    border-radius: 5px;
+    align-items: center;
+    width: 50%;
+    line-height: 20px;
+    margin: auto;
+}
+
+form        {
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+input[type="text"], input[type="password"]  {
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 30px;
+    padding: 5px;
+    width: 40%;
 }
