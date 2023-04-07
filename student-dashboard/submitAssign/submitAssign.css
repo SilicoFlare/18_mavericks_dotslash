@@ -1,0 +1,68 @@
+* {
+    font-family: Ubuntu;
+}
+
+h1 {
+    text-align: center;
+    color: #004159;
+    font-size: 60px;
+}
+
+form {
+    padding: 10px;
+}
+
+label {
+    font-size: 30px;
+    grid-column: 1;
+    text-align: right;
+    padding: 5px;
+    color: #8C65D3;
+}
+
+.topic {
+    font-size: 30px;
+    padding: 5px;
+    color: #00ADCE;
+}
+
+input {
+    border: 2px solid #004159;
+    border-radius: 5px;
+    font-size: 30px;
+    padding: 5px;
+    width: 30%;
+    margin: 5px;
+}
+
+textarea {
+    border: 2px solid #004159;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+    width: 90%;
+    height: 500px;
+    vertical-align: middle;
+    resize: vertical;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+button {
+    margin: auto;
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #8C65D3;
+    width: 200px;
+    color: white;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
